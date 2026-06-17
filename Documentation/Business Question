@@ -1,19 +1,52 @@
-1. Has revenue increased or decreased? What caused it?
+# Ticket 1: Acquisition Channel Quality
 
-2. Has net profit increased or decreased?
+## Business Question
 
-3. Are customers increasing or decreasing?
+Which acquisition channel brings the highest-value customers?
 
-4. What % of revenue comes from top customers?
+## KPI
 
-5. Is revenue dependent on discounts?
+Average Lifetime Spend per Customer
 
-6. Which acquisition channels bring the highest-value customers?
+### Formula
 
-7. Are customers returning?
+Lifetime Spend = SUM(order_amount) for delivered orders
 
-8. Which cities are growing fastest?
+Average Lifetime Spend =
+Total Lifetime Spend / Total Customers
 
-9. Which cuisines drive revenue?
+## Grain
 
-10. Where are customers dropping off in the funnel?
+Intermediate:
+- One row = One Customer
+
+Final:
+- One row = One Acquisition Channel
+
+## SQL Approach
+
+1. Calculate lifetime spend for each customer.
+2. Aggregate customers by acquisition channel.
+3. Compute:
+   - Total Customers
+   - Total Lifetime Revenue
+   - Average Lifetime Spend
+
+## Power BI Visualization
+
+- Clustered Bar Chart:
+  - Axis: Acquisition Channel
+  - Value: Average Lifetime Spend
+
+- KPI Cards:
+  - Total Revenue
+  - Total Customers
+  - Average Lifetime Spend
+
+## ETL / Data Quality Considerations
+
+- Exclude cancelled orders.
+- Ensure customer IDs are unique.
+- Check for NULL acquisition channels.
+- Validate duplicate orders.
+
