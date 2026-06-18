@@ -1,0 +1,1001 @@
+customer_id,customer_name,signup_date,city,acquisition_channel,gender,age
+1,Customer_1,2023-05-02,Pune,Google Ads,Male,32
+2,Customer_2,2024-09-07,Kolkata,Facebook,Female,55
+3,Customer_3,2024-03-27,Delhi,Organic,Male,25
+4,Customer_4,2023-10-22,Bengaluru,Google Ads,Female,61
+5,Customer_5,2023-11-18,Delhi,Google Ads,Female,40
+6,Customer_6,2024-01-21,Bengaluru,Facebook,Male,53
+7,Customer_7,2024-07-04,Chennai,Organic,Male,59
+8,Customer_8,2024-12-21,Chennai,Organic,Female,41
+9,Customer_9,2024-04-17,Kolkata,Organic,Female,25
+10,Customer_10,2024-03-11,Ahmedabad,Google Ads,Female,44
+11,Customer_11,2024-07-31,Ahmedabad,Google Ads,Male,54
+12,Customer_12,2023-08-18,Mumbai,Referral,Male,63
+13,Customer_13,2024-09-29,Kolkata,Google Ads,Female,32
+14,Customer_14,2023-05-05,Ahmedabad,Instagram,Female,53
+15,Customer_15,2024-02-16,Chennai,Google Ads,Female,43
+16,Customer_16,2024-03-19,Delhi,Organic,Female,18
+17,Customer_17,2023-02-03,Mumbai,Instagram,Female,51
+18,Customer_18,2024-05-16,Pune,Referral,Female,62
+19,Customer_19,2024-05-12,Ahmedabad,Google Ads,Female,45
+20,Customer_20,2024-07-25,Hyderabad,Referral,Female,47
+21,Customer_21,2023-04-11,Ahmedabad,Instagram,Female,46
+22,Customer_22,2023-07-07,Kolkata,Referral,Female,22
+23,Customer_23,2024-10-26,Chennai,Referral,Female,24
+24,Customer_24,2023-07-19,Kolkata,Organic,Male,23
+25,Customer_25,2023-01-01,Ahmedabad,Instagram,Male,57
+26,Customer_26,2023-07-23,Delhi,Organic,Male,52
+27,Customer_27,2023-10-02,Pune,Organic,Female,60
+28,Customer_28,2024-08-20,Ahmedabad,Instagram,Male,52
+29,Customer_29,2023-08-17,Ahmedabad,Instagram,Female,23
+30,Customer_30,2024-03-03,Mumbai,Referral,Female,50
+31,Customer_31,2024-02-26,Kolkata,Referral,Male,42
+32,Customer_32,2023-01-15,Bengaluru,Google Ads,Male,21
+33,Customer_33,2023-12-22,Pune,Referral,Male,19
+34,Customer_34,2024-06-06,Ahmedabad,Google Ads,Female,46
+35,Customer_35,2023-11-30,Bengaluru,Google Ads,Female,54
+36,Customer_36,2024-09-25,Mumbai,Organic,Male,45
+37,Customer_37,2024-09-30,Pune,Google Ads,Male,61
+38,Customer_38,2024-12-28,Bengaluru,Google Ads,Male,30
+39,Customer_39,2024-10-24,Mumbai,Organic,Male,46
+40,Customer_40,2024-10-18,Delhi,Google Ads,Male,26
+41,Customer_41,2024-10-23,Delhi,Facebook,Male,28
+42,Customer_42,2024-11-08,Mumbai,Google Ads,Female,52
+43,Customer_43,2024-02-29,Bengaluru,Google Ads,Male,40
+44,Customer_44,2023-06-28,Chennai,Google Ads,Female,36
+45,Customer_45,2024-04-23,Mumbai,Google Ads,Female,46
+46,Customer_46,2023-05-03,Chennai,Referral,Male,32
+47,Customer_47,2023-01-06,Bengaluru,Referral,Female,44
+48,Customer_48,2024-07-12,Mumbai,Influencer,Female,28
+49,Customer_49,2023-12-27,Delhi,Organic,Female,53
+50,Customer_50,2024-08-04,Delhi,Instagram,Female,60
+51,Customer_51,2024-07-23,Mumbai,Organic,Female,24
+52,Customer_52,2024-03-22,Mumbai,Organic,Male,40
+53,Customer_53,2023-07-09,Bengaluru,Google Ads,Female,55
+54,Customer_54,2023-03-07,Chennai,Referral,Male,34
+55,Customer_55,2023-09-20,Bengaluru,Organic,Female,44
+56,Customer_56,2023-01-16,Hyderabad,Organic,Male,37
+57,Customer_57,2023-05-06,Bengaluru,Instagram,Female,38
+58,Customer_58,2024-04-11,Hyderabad,Referral,Female,56
+59,Customer_59,2023-08-09,Ahmedabad,Google Ads,Male,61
+60,Customer_60,2024-01-19,Chennai,Google Ads,Female,21
+61,Customer_61,2024-03-23,Hyderabad,Organic,Female,36
+62,Customer_62,2023-05-06,Chennai,Facebook,Female,55
+63,Customer_63,2023-01-21,Pune,Organic,Male,64
+64,Customer_64,2023-04-26,Mumbai,Instagram,Male,20
+65,Customer_65,2023-05-09,Pune,Instagram,Female,19
+66,Customer_66,2024-03-10,Mumbai,Google Ads,Female,42
+67,Customer_67,2023-09-03,Kolkata,Instagram,Male,29
+68,Customer_68,2024-07-09,Hyderabad,Instagram,Female,34
+69,Customer_69,2023-06-01,Delhi,Organic,Female,52
+70,Customer_70,2024-05-05,Kolkata,Organic,Female,26
+71,Customer_71,2024-10-03,Bengaluru,Referral,Male,59
+72,Customer_72,2024-06-10,Chennai,Google Ads,Female,21
+73,Customer_73,2024-11-04,Hyderabad,Instagram,Male,48
+74,Customer_74,2023-03-01,Delhi,Instagram,Male,65
+75,Customer_75,2024-02-13,Pune,Influencer,Male,53
+76,Customer_76,2023-10-10,Pune,Referral,Female,40
+77,Customer_77,2024-04-15,Ahmedabad,Google Ads,Female,61
+78,Customer_78,2024-08-17,Chennai,Organic,Female,27
+79,Customer_79,2024-05-11,Hyderabad,Influencer,Female,20
+80,Customer_80,2024-10-16,Mumbai,Organic,Female,52
+81,Customer_81,2023-09-29,Mumbai,Facebook,Male,19
+82,Customer_82,2024-06-30,Delhi,Referral,Female,54
+83,Customer_83,2023-02-15,Kolkata,Google Ads,Male,50
+84,Customer_84,2023-04-18,Bengaluru,Organic,Female,39
+85,Customer_85,2024-07-14,Chennai,Google Ads,Male,28
+86,Customer_86,2023-10-27,Chennai,Google Ads,Female,26
+87,Customer_87,2024-02-02,Delhi,Influencer,Male,56
+88,Customer_88,2024-10-25,Ahmedabad,Referral,Female,52
+89,Customer_89,2023-06-24,Hyderabad,Organic,Male,28
+90,Customer_90,2023-01-30,Bengaluru,Google Ads,Male,41
+91,Customer_91,2023-03-07,Pune,Google Ads,Male,56
+92,Customer_92,2024-09-16,Delhi,Organic,Female,49
+93,Customer_93,2023-04-20,Bengaluru,Google Ads,Female,59
+94,Customer_94,2023-05-01,Pune,Google Ads,Female,25
+95,Customer_95,2024-07-22,Delhi,Referral,Female,55
+96,Customer_96,2023-12-20,Bengaluru,Organic,Male,49
+97,Customer_97,2023-11-16,Chennai,Facebook,Male,28
+98,Customer_98,2023-11-29,Kolkata,Google Ads,Female,38
+99,Customer_99,2024-11-03,Ahmedabad,Google Ads,Male,30
+100,Customer_100,2024-04-19,Delhi,Referral,Female,40
+101,Customer_101,2024-02-24,Kolkata,Organic,Female,65
+102,Customer_102,2024-08-03,Mumbai,Google Ads,Female,25
+103,Customer_103,2023-11-24,Chennai,Referral,Female,34
+104,Customer_104,2023-05-29,Chennai,Organic,Male,53
+105,Customer_105,2023-05-07,Chennai,Organic,Female,58
+106,Customer_106,2024-02-15,Kolkata,Organic,Female,61
+107,Customer_107,2024-02-24,Pune,Organic,Female,61
+108,Customer_108,2024-10-10,Delhi,Google Ads,Female,21
+109,Customer_109,2024-02-14,Mumbai,Organic,Female,26
+110,Customer_110,2023-12-09,Kolkata,Referral,Female,48
+111,Customer_111,2023-12-13,Hyderabad,Organic,Male,58
+112,Customer_112,2023-05-04,Chennai,Google Ads,Male,47
+113,Customer_113,2024-06-11,Chennai,Instagram,Female,23
+114,Customer_114,2024-07-23,Delhi,Google Ads,Male,24
+115,Customer_115,2023-06-09,Pune,Influencer,Female,31
+116,Customer_116,2024-09-12,Mumbai,Facebook,Male,54
+117,Customer_117,2024-03-03,Mumbai,Organic,Female,44
+118,Customer_118,2023-02-15,Mumbai,Instagram,Male,48
+119,Customer_119,2024-11-04,Pune,Google Ads,Female,56
+120,Customer_120,2024-05-06,Chennai,Google Ads,Female,34
+121,Customer_121,2023-02-07,Ahmedabad,Organic,Female,41
+122,Customer_122,2023-09-17,Ahmedabad,Organic,Female,50
+123,Customer_123,2024-02-14,Chennai,Organic,Male,44
+124,Customer_124,2023-03-08,Chennai,Influencer,Male,50
+125,Customer_125,2024-06-18,Pune,Google Ads,Female,41
+126,Customer_126,2023-07-05,Bengaluru,Influencer,Male,34
+127,Customer_127,2024-06-24,Kolkata,Instagram,Male,19
+128,Customer_128,2024-04-19,Delhi,Organic,Male,50
+129,Customer_129,2023-08-05,Chennai,Facebook,Female,26
+130,Customer_130,2024-07-26,Pune,Google Ads,Female,52
+131,Customer_131,2024-09-22,Delhi,Organic,Male,64
+132,Customer_132,2023-05-28,Mumbai,Facebook,Male,60
+133,Customer_133,2023-02-05,Chennai,Facebook,Male,26
+134,Customer_134,2023-10-01,Pune,Organic,Male,29
+135,Customer_135,2024-12-10,Hyderabad,Facebook,Male,44
+136,Customer_136,2024-10-18,Ahmedabad,Referral,Male,37
+137,Customer_137,2023-08-15,Pune,Referral,Male,47
+138,Customer_138,2024-11-27,Kolkata,Organic,Female,27
+139,Customer_139,2024-06-04,Hyderabad,Google Ads,Male,24
+140,Customer_140,2023-12-28,Chennai,Google Ads,Male,28
+141,Customer_141,2024-05-30,Delhi,Referral,Male,45
+142,Customer_142,2024-11-10,Kolkata,Organic,Male,33
+143,Customer_143,2023-08-19,Ahmedabad,Organic,Male,52
+144,Customer_144,2024-03-08,Kolkata,Google Ads,Female,63
+145,Customer_145,2023-08-03,Chennai,Instagram,Female,53
+146,Customer_146,2024-09-13,Ahmedabad,Organic,Male,65
+147,Customer_147,2023-07-20,Bengaluru,Facebook,Female,63
+148,Customer_148,2024-11-26,Mumbai,Organic,Male,59
+149,Customer_149,2024-03-19,Delhi,Referral,Female,19
+150,Customer_150,2024-07-14,Mumbai,Instagram,Female,36
+151,Customer_151,2024-01-09,Kolkata,Organic,Female,35
+152,Customer_152,2023-12-29,Ahmedabad,Influencer,Male,27
+153,Customer_153,2024-07-27,Delhi,Influencer,Female,42
+154,Customer_154,2024-09-15,Hyderabad,Referral,Female,34
+155,Customer_155,2024-11-29,Bengaluru,Google Ads,Female,52
+156,Customer_156,2024-06-22,Bengaluru,Referral,Female,20
+157,Customer_157,2023-03-24,Hyderabad,Organic,Female,54
+158,Customer_158,2023-04-22,Kolkata,Facebook,Female,57
+159,Customer_159,2024-05-05,Hyderabad,Organic,Female,26
+160,Customer_160,2023-01-28,Bengaluru,Google Ads,Male,52
+161,Customer_161,2023-09-19,Hyderabad,Influencer,Male,56
+162,Customer_162,2024-06-17,Bengaluru,Facebook,Female,63
+163,Customer_163,2023-06-06,Chennai,Influencer,Male,38
+164,Customer_164,2024-04-24,Delhi,Google Ads,Female,44
+165,Customer_165,2023-02-12,Ahmedabad,Organic,Male,46
+166,Customer_166,2023-07-13,Bengaluru,Instagram,Female,48
+167,Customer_167,2024-06-26,Hyderabad,Google Ads,Male,42
+168,Customer_168,2023-02-04,Ahmedabad,Facebook,Female,33
+169,Customer_169,2024-06-17,Pune,Organic,Female,65
+170,Customer_170,2024-08-17,Hyderabad,Google Ads,Male,51
+171,Customer_171,2023-05-06,Pune,Referral,Male,53
+172,Customer_172,2023-06-24,Ahmedabad,Google Ads,Male,24
+173,Customer_173,2024-03-01,Kolkata,Influencer,Male,30
+174,Customer_174,2023-02-22,Chennai,Facebook,Male,51
+175,Customer_175,2023-09-30,Pune,Organic,Male,20
+176,Customer_176,2023-08-12,Bengaluru,Referral,Male,40
+177,Customer_177,2024-12-11,Ahmedabad,Referral,Male,30
+178,Customer_178,2024-10-28,Ahmedabad,Organic,Male,28
+179,Customer_179,2024-10-29,Bengaluru,Organic,Male,36
+180,Customer_180,2024-09-24,Hyderabad,Google Ads,Female,22
+181,Customer_181,2024-12-18,Mumbai,Google Ads,Male,49
+182,Customer_182,2023-02-24,Pune,Organic,Female,47
+183,Customer_183,2023-03-31,Delhi,Organic,Female,42
+184,Customer_184,2024-07-23,Bengaluru,Google Ads,Male,28
+185,Customer_185,2023-08-31,Mumbai,Instagram,Female,43
+186,Customer_186,2023-10-13,Mumbai,Google Ads,Male,40
+187,Customer_187,2023-03-18,Mumbai,Influencer,Male,48
+188,Customer_188,2024-12-11,Mumbai,Instagram,Female,29
+189,Customer_189,2024-05-21,Bengaluru,Organic,Female,23
+190,Customer_190,2024-12-15,Ahmedabad,Instagram,Female,50
+191,Customer_191,2023-12-31,Bengaluru,Facebook,Male,59
+192,Customer_192,2023-09-16,Delhi,Organic,Male,37
+193,Customer_193,2024-08-31,Mumbai,Google Ads,Male,19
+194,Customer_194,2023-12-17,Mumbai,Facebook,Male,33
+195,Customer_195,2024-11-11,Ahmedabad,Facebook,Male,56
+196,Customer_196,2024-05-29,Ahmedabad,Organic,Male,18
+197,Customer_197,2024-09-19,Chennai,Organic,Female,19
+198,Customer_198,2024-03-30,Chennai,Referral,Female,58
+199,Customer_199,2024-10-02,Hyderabad,Google Ads,Male,24
+200,Customer_200,2023-08-21,Pune,Google Ads,Male,42
+201,Customer_201,2023-10-08,Ahmedabad,Facebook,Female,34
+202,Customer_202,2024-04-01,Kolkata,Google Ads,Female,28
+203,Customer_203,2023-04-15,Hyderabad,Organic,Female,63
+204,Customer_204,2024-02-18,Delhi,Referral,Female,28
+205,Customer_205,2023-04-14,Delhi,Google Ads,Female,59
+206,Customer_206,2024-07-03,Kolkata,Organic,Female,52
+207,Customer_207,2024-07-05,Kolkata,Instagram,Female,46
+208,Customer_208,2023-09-06,Mumbai,Google Ads,Male,65
+209,Customer_209,2024-09-28,Delhi,Google Ads,Female,60
+210,Customer_210,2024-08-17,Mumbai,Google Ads,Female,58
+211,Customer_211,2024-05-23,Hyderabad,Instagram,Male,56
+212,Customer_212,2024-06-10,Pune,Instagram,Female,32
+213,Customer_213,2024-12-08,Chennai,Referral,Female,40
+214,Customer_214,2024-02-03,Delhi,Organic,Female,42
+215,Customer_215,2024-09-29,Pune,Referral,Male,53
+216,Customer_216,2024-08-21,Kolkata,Google Ads,Male,24
+217,Customer_217,2023-08-30,Delhi,Organic,Female,48
+218,Customer_218,2023-06-11,Kolkata,Google Ads,Female,19
+219,Customer_219,2024-07-12,Bengaluru,Influencer,Male,31
+220,Customer_220,2024-02-12,Bengaluru,Google Ads,Female,58
+221,Customer_221,2024-06-12,Bengaluru,Google Ads,Female,37
+222,Customer_222,2023-01-04,Bengaluru,Referral,Female,60
+223,Customer_223,2023-06-04,Ahmedabad,Instagram,Male,59
+224,Customer_224,2023-04-19,Delhi,Referral,Female,39
+225,Customer_225,2024-08-31,Mumbai,Organic,Female,33
+226,Customer_226,2023-06-02,Ahmedabad,Google Ads,Male,53
+227,Customer_227,2024-03-09,Mumbai,Organic,Female,45
+228,Customer_228,2023-03-06,Ahmedabad,Google Ads,Female,48
+229,Customer_229,2023-12-26,Bengaluru,Influencer,Female,29
+230,Customer_230,2024-03-14,Bengaluru,Organic,Male,45
+231,Customer_231,2023-04-22,Pune,Influencer,Male,27
+232,Customer_232,2024-09-08,Chennai,Organic,Female,24
+233,Customer_233,2024-12-12,Delhi,Google Ads,Male,44
+234,Customer_234,2024-10-10,Bengaluru,Instagram,Female,38
+235,Customer_235,2024-03-13,Chennai,Organic,Male,51
+236,Customer_236,2024-03-05,Chennai,Organic,Female,51
+237,Customer_237,2024-04-16,Chennai,Google Ads,Female,31
+238,Customer_238,2024-12-25,Ahmedabad,Organic,Female,34
+239,Customer_239,2023-11-15,Bengaluru,Referral,Male,18
+240,Customer_240,2023-07-22,Pune,Instagram,Male,60
+241,Customer_241,2023-12-11,Kolkata,Instagram,Female,56
+242,Customer_242,2024-01-21,Bengaluru,Influencer,Female,61
+243,Customer_243,2024-04-08,Pune,Instagram,Female,18
+244,Customer_244,2023-12-31,Kolkata,Facebook,Female,48
+245,Customer_245,2023-01-11,Pune,Google Ads,Male,56
+246,Customer_246,2023-01-24,Chennai,Google Ads,Male,25
+247,Customer_247,2023-12-05,Kolkata,Organic,Female,63
+248,Customer_248,2023-09-21,Hyderabad,Organic,Male,22
+249,Customer_249,2023-08-23,Mumbai,Organic,Female,57
+250,Customer_250,2024-07-06,Ahmedabad,Organic,Male,36
+251,Customer_251,2023-05-10,Bengaluru,Referral,Male,25
+252,Customer_252,2024-12-12,Bengaluru,Referral,Male,55
+253,Customer_253,2024-02-02,Hyderabad,Organic,Male,36
+254,Customer_254,2024-02-23,Pune,Instagram,Female,30
+255,Customer_255,2023-02-22,Kolkata,Google Ads,Female,58
+256,Customer_256,2024-07-03,Mumbai,Instagram,Male,22
+257,Customer_257,2024-04-09,Kolkata,Referral,Female,58
+258,Customer_258,2024-10-13,Mumbai,Facebook,Female,24
+259,Customer_259,2023-05-12,Kolkata,Organic,Female,51
+260,Customer_260,2024-09-28,Mumbai,Organic,Male,62
+261,Customer_261,2023-10-30,Hyderabad,Referral,Male,47
+262,Customer_262,2024-01-31,Bengaluru,Google Ads,Male,18
+263,Customer_263,2024-01-11,Bengaluru,Organic,Male,30
+264,Customer_264,2023-12-15,Chennai,Organic,Male,52
+265,Customer_265,2023-03-16,Delhi,Google Ads,Female,26
+266,Customer_266,2023-06-24,Mumbai,Organic,Female,61
+267,Customer_267,2023-05-03,Kolkata,Organic,Female,41
+268,Customer_268,2023-07-15,Delhi,Facebook,Female,48
+269,Customer_269,2023-03-08,Mumbai,Instagram,Female,52
+270,Customer_270,2023-02-20,Pune,Referral,Male,64
+271,Customer_271,2023-10-10,Ahmedabad,Instagram,Male,37
+272,Customer_272,2023-06-05,Chennai,Google Ads,Male,31
+273,Customer_273,2023-11-11,Bengaluru,Organic,Female,22
+274,Customer_274,2024-05-05,Pune,Organic,Male,62
+275,Customer_275,2023-02-18,Bengaluru,Organic,Female,23
+276,Customer_276,2023-07-26,Delhi,Referral,Male,19
+277,Customer_277,2023-11-19,Delhi,Organic,Female,24
+278,Customer_278,2023-09-17,Ahmedabad,Influencer,Female,61
+279,Customer_279,2023-12-09,Delhi,Organic,Female,61
+280,Customer_280,2024-05-15,Kolkata,Organic,Female,41
+281,Customer_281,2023-07-26,Chennai,Instagram,Female,43
+282,Customer_282,2024-07-04,Bengaluru,Instagram,Male,45
+283,Customer_283,2024-04-21,Hyderabad,Instagram,Male,48
+284,Customer_284,2023-05-30,Ahmedabad,Google Ads,Female,25
+285,Customer_285,2023-09-28,Bengaluru,Organic,Male,59
+286,Customer_286,2023-08-01,Chennai,Influencer,Female,61
+287,Customer_287,2023-01-10,Bengaluru,Organic,Female,40
+288,Customer_288,2023-06-26,Kolkata,Referral,Male,30
+289,Customer_289,2024-12-19,Chennai,Organic,Female,36
+290,Customer_290,2024-03-08,Kolkata,Instagram,Male,23
+291,Customer_291,2024-02-11,Kolkata,Referral,Male,56
+292,Customer_292,2024-07-10,Ahmedabad,Organic,Female,63
+293,Customer_293,2023-09-02,Pune,Google Ads,Male,65
+294,Customer_294,2023-10-02,Mumbai,Organic,Male,32
+295,Customer_295,2023-08-19,Chennai,Instagram,Female,47
+296,Customer_296,2023-02-13,Chennai,Referral,Female,62
+297,Customer_297,2023-04-04,Hyderabad,Organic,Female,39
+298,Customer_298,2024-12-13,Bengaluru,Facebook,Female,65
+299,Customer_299,2023-11-18,Kolkata,Organic,Female,25
+300,Customer_300,2024-12-23,Hyderabad,Google Ads,Male,33
+301,Customer_301,2023-11-30,Pune,Referral,Female,57
+302,Customer_302,2024-11-20,Chennai,Organic,Female,28
+303,Customer_303,2024-08-02,Chennai,Facebook,Female,47
+304,Customer_304,2024-06-14,Bengaluru,Facebook,Male,35
+305,Customer_305,2023-09-30,Kolkata,Organic,Female,23
+306,Customer_306,2024-09-24,Pune,Google Ads,Male,65
+307,Customer_307,2024-07-26,Hyderabad,Organic,Male,63
+308,Customer_308,2023-02-13,Pune,Instagram,Male,19
+309,Customer_309,2024-05-16,Hyderabad,Facebook,Male,46
+310,Customer_310,2023-02-22,Delhi,Facebook,Male,49
+311,Customer_311,2023-07-25,Delhi,Organic,Female,20
+312,Customer_312,2023-07-24,Hyderabad,Google Ads,Female,46
+313,Customer_313,2024-12-11,Bengaluru,Referral,Female,22
+314,Customer_314,2023-04-18,Chennai,Google Ads,Female,23
+315,Customer_315,2023-03-24,Hyderabad,Organic,Male,50
+316,Customer_316,2023-09-04,Hyderabad,Organic,Female,18
+317,Customer_317,2024-10-06,Delhi,Organic,Male,37
+318,Customer_318,2023-06-20,Kolkata,Organic,Female,23
+319,Customer_319,2024-03-17,Ahmedabad,Organic,Female,29
+320,Customer_320,2024-08-28,Delhi,Referral,Male,26
+321,Customer_321,2024-03-04,Ahmedabad,Organic,Male,27
+322,Customer_322,2024-09-08,Ahmedabad,Google Ads,Female,49
+323,Customer_323,2024-09-10,Mumbai,Instagram,Male,31
+324,Customer_324,2024-08-31,Bengaluru,Facebook,Male,30
+325,Customer_325,2024-05-18,Hyderabad,Referral,Female,61
+326,Customer_326,2023-04-14,Kolkata,Organic,Male,26
+327,Customer_327,2024-08-20,Bengaluru,Referral,Female,19
+328,Customer_328,2024-11-12,Kolkata,Google Ads,Female,38
+329,Customer_329,2023-09-24,Pune,Organic,Female,32
+330,Customer_330,2023-12-04,Bengaluru,Google Ads,Female,51
+331,Customer_331,2023-05-31,Pune,Instagram,Male,34
+332,Customer_332,2024-07-15,Bengaluru,Organic,Male,47
+333,Customer_333,2024-12-01,Mumbai,Google Ads,Male,65
+334,Customer_334,2024-02-21,Kolkata,Referral,Male,54
+335,Customer_335,2023-01-26,Mumbai,Organic,Male,63
+336,Customer_336,2023-11-14,Mumbai,Instagram,Male,65
+337,Customer_337,2023-10-29,Mumbai,Google Ads,Male,47
+338,Customer_338,2024-12-09,Hyderabad,Facebook,Female,20
+339,Customer_339,2024-01-27,Hyderabad,Referral,Male,52
+340,Customer_340,2024-06-17,Ahmedabad,Organic,Male,38
+341,Customer_341,2023-05-04,Ahmedabad,Referral,Male,24
+342,Customer_342,2023-08-27,Delhi,Facebook,Male,39
+343,Customer_343,2023-07-02,Kolkata,Instagram,Female,64
+344,Customer_344,2023-07-19,Ahmedabad,Google Ads,Male,47
+345,Customer_345,2024-02-10,Hyderabad,Instagram,Male,24
+346,Customer_346,2024-12-05,Kolkata,Instagram,Male,24
+347,Customer_347,2023-07-14,Pune,Google Ads,Female,20
+348,Customer_348,2023-01-21,Mumbai,Organic,Female,62
+349,Customer_349,2024-08-16,Kolkata,Instagram,Female,31
+350,Customer_350,2023-09-24,Delhi,Organic,Female,43
+351,Customer_351,2023-11-23,Pune,Organic,Male,65
+352,Customer_352,2024-01-06,Bengaluru,Organic,Male,45
+353,Customer_353,2023-07-18,Ahmedabad,Influencer,Female,22
+354,Customer_354,2024-10-22,Bengaluru,Organic,Female,32
+355,Customer_355,2023-08-30,Pune,Organic,Female,53
+356,Customer_356,2024-01-11,Hyderabad,Instagram,Female,52
+357,Customer_357,2023-01-17,Bengaluru,Google Ads,Male,24
+358,Customer_358,2024-02-01,Bengaluru,Organic,Male,27
+359,Customer_359,2023-07-01,Pune,Organic,Male,40
+360,Customer_360,2023-06-12,Hyderabad,Google Ads,Male,23
+361,Customer_361,2023-10-06,Mumbai,Instagram,Female,25
+362,Customer_362,2024-06-06,Delhi,Organic,Male,51
+363,Customer_363,2023-05-17,Delhi,Influencer,Female,65
+364,Customer_364,2024-10-13,Bengaluru,Referral,Female,26
+365,Customer_365,2023-04-27,Mumbai,Organic,Male,62
+366,Customer_366,2024-06-18,Kolkata,Organic,Female,49
+367,Customer_367,2024-02-10,Hyderabad,Organic,Male,41
+368,Customer_368,2023-11-09,Mumbai,Organic,Female,51
+369,Customer_369,2024-12-05,Pune,Organic,Male,34
+370,Customer_370,2023-05-24,Ahmedabad,Google Ads,Male,58
+371,Customer_371,2024-12-23,Mumbai,Instagram,Female,37
+372,Customer_372,2023-09-19,Ahmedabad,Google Ads,Male,35
+373,Customer_373,2024-04-23,Bengaluru,Organic,Male,43
+374,Customer_374,2023-02-22,Pune,Google Ads,Female,54
+375,Customer_375,2024-02-08,Pune,Referral,Male,54
+376,Customer_376,2024-02-27,Hyderabad,Google Ads,Female,62
+377,Customer_377,2023-08-14,Delhi,Organic,Female,61
+378,Customer_378,2024-09-08,Mumbai,Google Ads,Female,47
+379,Customer_379,2023-04-22,Hyderabad,Instagram,Female,36
+380,Customer_380,2023-09-18,Chennai,Google Ads,Female,20
+381,Customer_381,2023-09-07,Ahmedabad,Organic,Female,44
+382,Customer_382,2024-07-06,Delhi,Referral,Male,44
+383,Customer_383,2024-02-03,Hyderabad,Google Ads,Female,50
+384,Customer_384,2024-08-29,Kolkata,Google Ads,Female,64
+385,Customer_385,2023-11-06,Hyderabad,Google Ads,Male,20
+386,Customer_386,2024-11-08,Delhi,Instagram,Male,29
+387,Customer_387,2023-02-04,Ahmedabad,Google Ads,Female,33
+388,Customer_388,2024-09-23,Ahmedabad,Organic,Male,19
+389,Customer_389,2024-08-05,Ahmedabad,Google Ads,Male,19
+390,Customer_390,2023-06-30,Mumbai,Organic,Male,49
+391,Customer_391,2023-01-18,Bengaluru,Instagram,Female,57
+392,Customer_392,2023-05-29,Chennai,Google Ads,Female,51
+393,Customer_393,2023-05-27,Hyderabad,Facebook,Male,35
+394,Customer_394,2023-09-30,Delhi,Organic,Female,46
+395,Customer_395,2023-10-07,Kolkata,Referral,Female,35
+396,Customer_396,2023-08-04,Mumbai,Instagram,Male,45
+397,Customer_397,2024-12-16,Ahmedabad,Referral,Female,56
+398,Customer_398,2023-06-12,Bengaluru,Organic,Female,31
+399,Customer_399,2023-10-24,Chennai,Google Ads,Female,46
+400,Customer_400,2023-05-17,Pune,Referral,Male,52
+401,Customer_401,2024-08-28,Hyderabad,Facebook,Male,28
+402,Customer_402,2023-03-16,Mumbai,Facebook,Female,50
+403,Customer_403,2024-03-02,Mumbai,Influencer,Male,47
+404,Customer_404,2023-04-02,Delhi,Google Ads,Male,29
+405,Customer_405,2024-08-01,Chennai,Facebook,Female,23
+406,Customer_406,2024-01-16,Hyderabad,Referral,Male,58
+407,Customer_407,2024-09-26,Pune,Organic,Male,21
+408,Customer_408,2024-05-17,Chennai,Organic,Female,38
+409,Customer_409,2024-05-22,Delhi,Google Ads,Female,62
+410,Customer_410,2024-02-18,Delhi,Organic,Male,45
+411,Customer_411,2023-02-05,Kolkata,Referral,Female,38
+412,Customer_412,2023-01-04,Bengaluru,Organic,Female,57
+413,Customer_413,2023-10-21,Kolkata,Organic,Female,41
+414,Customer_414,2024-10-11,Chennai,Google Ads,Male,19
+415,Customer_415,2024-04-14,Chennai,Facebook,Female,25
+416,Customer_416,2023-10-19,Bengaluru,Influencer,Male,31
+417,Customer_417,2023-09-01,Bengaluru,Facebook,Female,45
+418,Customer_418,2023-02-13,Chennai,Facebook,Male,53
+419,Customer_419,2024-12-29,Delhi,Referral,Male,56
+420,Customer_420,2023-12-06,Kolkata,Organic,Male,22
+421,Customer_421,2023-03-05,Bengaluru,Instagram,Female,63
+422,Customer_422,2023-10-20,Chennai,Google Ads,Male,41
+423,Customer_423,2023-04-15,Pune,Referral,Female,65
+424,Customer_424,2024-11-16,Delhi,Instagram,Male,22
+425,Customer_425,2023-02-20,Mumbai,Google Ads,Male,58
+426,Customer_426,2024-09-16,Mumbai,Referral,Male,53
+427,Customer_427,2024-10-18,Hyderabad,Organic,Female,33
+428,Customer_428,2023-03-19,Chennai,Organic,Female,58
+429,Customer_429,2023-08-24,Delhi,Instagram,Female,54
+430,Customer_430,2023-11-23,Bengaluru,Google Ads,Female,36
+431,Customer_431,2023-05-25,Chennai,Google Ads,Female,64
+432,Customer_432,2024-06-04,Hyderabad,Google Ads,Female,56
+433,Customer_433,2024-05-28,Hyderabad,Facebook,Female,41
+434,Customer_434,2024-06-18,Pune,Referral,Male,38
+435,Customer_435,2023-07-05,Chennai,Google Ads,Female,22
+436,Customer_436,2024-06-17,Kolkata,Facebook,Female,19
+437,Customer_437,2024-10-22,Pune,Google Ads,Male,41
+438,Customer_438,2024-05-21,Pune,Organic,Female,28
+439,Customer_439,2024-02-29,Kolkata,Instagram,Male,59
+440,Customer_440,2023-11-11,Delhi,Organic,Female,57
+441,Customer_441,2023-03-25,Chennai,Organic,Male,49
+442,Customer_442,2023-10-08,Ahmedabad,Google Ads,Female,30
+443,Customer_443,2024-11-20,Kolkata,Instagram,Male,52
+444,Customer_444,2023-01-12,Chennai,Facebook,Female,22
+445,Customer_445,2024-06-16,Kolkata,Referral,Male,59
+446,Customer_446,2024-10-28,Chennai,Organic,Female,57
+447,Customer_447,2024-10-11,Pune,Google Ads,Male,24
+448,Customer_448,2023-10-04,Delhi,Referral,Female,35
+449,Customer_449,2024-02-17,Bengaluru,Google Ads,Female,40
+450,Customer_450,2024-01-27,Ahmedabad,Google Ads,Female,27
+451,Customer_451,2024-12-07,Chennai,Instagram,Female,36
+452,Customer_452,2023-03-21,Mumbai,Referral,Male,29
+453,Customer_453,2024-05-27,Chennai,Google Ads,Male,60
+454,Customer_454,2023-12-07,Hyderabad,Referral,Female,58
+455,Customer_455,2024-04-22,Ahmedabad,Google Ads,Female,42
+456,Customer_456,2024-06-13,Ahmedabad,Google Ads,Female,60
+457,Customer_457,2023-05-03,Ahmedabad,Instagram,Female,38
+458,Customer_458,2024-05-17,Pune,Google Ads,Male,65
+459,Customer_459,2024-01-17,Pune,Influencer,Female,59
+460,Customer_460,2024-06-25,Delhi,Referral,Female,49
+461,Customer_461,2023-03-02,Ahmedabad,Google Ads,Male,22
+462,Customer_462,2024-02-06,Mumbai,Organic,Female,51
+463,Customer_463,2024-04-11,Bengaluru,Google Ads,Female,51
+464,Customer_464,2023-07-24,Kolkata,Instagram,Male,30
+465,Customer_465,2023-05-23,Hyderabad,Organic,Male,46
+466,Customer_466,2023-06-24,Mumbai,Instagram,Male,38
+467,Customer_467,2024-04-12,Pune,Organic,Male,48
+468,Customer_468,2024-05-18,Ahmedabad,Google Ads,Female,62
+469,Customer_469,2023-11-06,Pune,Google Ads,Male,19
+470,Customer_470,2023-04-24,Kolkata,Instagram,Male,57
+471,Customer_471,2023-08-07,Delhi,Organic,Male,48
+472,Customer_472,2023-10-15,Pune,Facebook,Female,31
+473,Customer_473,2023-11-24,Bengaluru,Organic,Male,49
+474,Customer_474,2024-10-12,Ahmedabad,Organic,Female,48
+475,Customer_475,2024-12-14,Chennai,Google Ads,Female,47
+476,Customer_476,2023-07-20,Mumbai,Organic,Male,35
+477,Customer_477,2024-01-15,Mumbai,Influencer,Female,48
+478,Customer_478,2023-04-28,Delhi,Organic,Female,35
+479,Customer_479,2023-09-15,Hyderabad,Organic,Male,54
+480,Customer_480,2024-03-01,Chennai,Organic,Male,37
+481,Customer_481,2023-07-30,Bengaluru,Influencer,Male,30
+482,Customer_482,2023-12-11,Bengaluru,Referral,Male,50
+483,Customer_483,2023-04-14,Chennai,Instagram,Female,48
+484,Customer_484,2023-10-17,Chennai,Organic,Female,52
+485,Customer_485,2024-01-27,Kolkata,Organic,Female,22
+486,Customer_486,2023-05-20,Pune,Instagram,Male,19
+487,Customer_487,2024-12-27,Chennai,Instagram,Female,41
+488,Customer_488,2023-03-13,Bengaluru,Referral,Female,29
+489,Customer_489,2024-02-08,Pune,Google Ads,Female,65
+490,Customer_490,2024-09-18,Hyderabad,Organic,Male,21
+491,Customer_491,2024-12-30,Pune,Organic,Female,40
+492,Customer_492,2024-08-17,Chennai,Google Ads,Female,40
+493,Customer_493,2023-04-06,Delhi,Organic,Male,46
+494,Customer_494,2023-03-11,Chennai,Referral,Female,41
+495,Customer_495,2023-12-03,Ahmedabad,Facebook,Male,31
+496,Customer_496,2023-10-01,Delhi,Organic,Male,27
+497,Customer_497,2024-02-14,Pune,Organic,Male,51
+498,Customer_498,2024-08-25,Mumbai,Organic,Female,31
+499,Customer_499,2023-01-01,Pune,Referral,Male,62
+500,Customer_500,2024-03-10,Bengaluru,Referral,Male,27
+501,Customer_501,2024-03-27,Pune,Google Ads,Female,37
+502,Customer_502,2024-07-26,Delhi,Facebook,Female,49
+503,Customer_503,2023-10-03,Chennai,Instagram,Male,56
+504,Customer_504,2024-08-01,Pune,Referral,Female,57
+505,Customer_505,2024-10-12,Delhi,Facebook,Male,56
+506,Customer_506,2024-07-07,Bengaluru,Google Ads,Male,63
+507,Customer_507,2024-02-21,Bengaluru,Instagram,Female,31
+508,Customer_508,2023-01-12,Delhi,Google Ads,Male,44
+509,Customer_509,2024-06-06,Hyderabad,Google Ads,Female,21
+510,Customer_510,2023-12-02,Bengaluru,Influencer,Male,65
+511,Customer_511,2024-11-08,Ahmedabad,Google Ads,Male,39
+512,Customer_512,2023-09-02,Mumbai,Facebook,Female,38
+513,Customer_513,2024-12-08,Delhi,Google Ads,Female,30
+514,Customer_514,2023-01-28,Hyderabad,Instagram,Female,28
+515,Customer_515,2024-04-02,Ahmedabad,Organic,Female,35
+516,Customer_516,2023-10-12,Pune,Organic,Female,32
+517,Customer_517,2024-03-07,Hyderabad,Organic,Male,20
+518,Customer_518,2023-10-24,Bengaluru,Google Ads,Female,23
+519,Customer_519,2023-10-10,Mumbai,Organic,Male,38
+520,Customer_520,2023-06-03,Bengaluru,Google Ads,Female,48
+521,Customer_521,2024-02-13,Ahmedabad,Facebook,Female,60
+522,Customer_522,2023-06-07,Kolkata,Organic,Male,51
+523,Customer_523,2024-06-04,Pune,Google Ads,Male,51
+524,Customer_524,2023-08-13,Mumbai,Instagram,Male,46
+525,Customer_525,2024-05-02,Hyderabad,Instagram,Male,23
+526,Customer_526,2024-04-04,Pune,Google Ads,Female,21
+527,Customer_527,2023-05-03,Kolkata,Instagram,Female,42
+528,Customer_528,2023-11-08,Chennai,Referral,Female,50
+529,Customer_529,2023-09-04,Ahmedabad,Google Ads,Male,47
+530,Customer_530,2024-04-10,Kolkata,Facebook,Male,36
+531,Customer_531,2023-05-09,Delhi,Google Ads,Female,62
+532,Customer_532,2024-01-23,Hyderabad,Organic,Male,46
+533,Customer_533,2023-12-09,Chennai,Facebook,Female,24
+534,Customer_534,2023-12-04,Chennai,Google Ads,Male,31
+535,Customer_535,2024-10-10,Delhi,Google Ads,Male,45
+536,Customer_536,2024-11-16,Kolkata,Instagram,Male,18
+537,Customer_537,2023-11-09,Chennai,Google Ads,Male,25
+538,Customer_538,2024-06-02,Delhi,Organic,Female,52
+539,Customer_539,2023-07-08,Hyderabad,Google Ads,Male,60
+540,Customer_540,2024-10-17,Chennai,Instagram,Female,31
+541,Customer_541,2023-07-04,Bengaluru,Google Ads,Female,19
+542,Customer_542,2024-04-23,Chennai,Organic,Male,59
+543,Customer_543,2023-03-28,Ahmedabad,Organic,Female,40
+544,Customer_544,2023-04-02,Mumbai,Referral,Female,61
+545,Customer_545,2023-06-12,Pune,Google Ads,Female,64
+546,Customer_546,2024-11-26,Kolkata,Google Ads,Female,37
+547,Customer_547,2024-05-25,Mumbai,Facebook,Male,21
+548,Customer_548,2023-03-29,Mumbai,Organic,Male,42
+549,Customer_549,2024-02-03,Mumbai,Google Ads,Female,31
+550,Customer_550,2024-03-04,Ahmedabad,Instagram,Female,45
+551,Customer_551,2024-09-17,Ahmedabad,Organic,Female,55
+552,Customer_552,2024-11-03,Ahmedabad,Facebook,Male,45
+553,Customer_553,2023-10-06,Bengaluru,Instagram,Female,19
+554,Customer_554,2024-09-25,Delhi,Referral,Female,54
+555,Customer_555,2024-12-08,Ahmedabad,Organic,Female,28
+556,Customer_556,2023-05-20,Chennai,Google Ads,Male,20
+557,Customer_557,2023-09-17,Ahmedabad,Organic,Female,59
+558,Customer_558,2024-07-15,Hyderabad,Google Ads,Male,44
+559,Customer_559,2024-09-11,Pune,Referral,Male,37
+560,Customer_560,2023-08-10,Ahmedabad,Influencer,Female,37
+561,Customer_561,2023-01-15,Mumbai,Google Ads,Male,54
+562,Customer_562,2024-03-09,Hyderabad,Google Ads,Male,52
+563,Customer_563,2024-03-09,Pune,Organic,Male,62
+564,Customer_564,2024-08-31,Hyderabad,Organic,Male,51
+565,Customer_565,2024-04-05,Kolkata,Referral,Male,48
+566,Customer_566,2023-12-12,Hyderabad,Organic,Female,62
+567,Customer_567,2024-08-28,Bengaluru,Google Ads,Male,42
+568,Customer_568,2024-12-18,Mumbai,Organic,Male,25
+569,Customer_569,2024-11-08,Ahmedabad,Facebook,Male,46
+570,Customer_570,2024-07-19,Ahmedabad,Organic,Female,54
+571,Customer_571,2024-11-20,Mumbai,Google Ads,Female,62
+572,Customer_572,2023-11-27,Mumbai,Organic,Female,19
+573,Customer_573,2024-10-05,Chennai,Influencer,Female,23
+574,Customer_574,2024-08-13,Ahmedabad,Google Ads,Male,35
+575,Customer_575,2023-07-21,Chennai,Organic,Male,46
+576,Customer_576,2023-06-09,Bengaluru,Google Ads,Male,56
+577,Customer_577,2024-09-30,Pune,Google Ads,Male,63
+578,Customer_578,2024-03-21,Mumbai,Organic,Male,34
+579,Customer_579,2024-06-02,Bengaluru,Organic,Female,29
+580,Customer_580,2023-10-19,Ahmedabad,Google Ads,Female,30
+581,Customer_581,2023-02-08,Hyderabad,Google Ads,Male,62
+582,Customer_582,2024-09-17,Ahmedabad,Referral,Female,41
+583,Customer_583,2024-04-07,Chennai,Google Ads,Female,52
+584,Customer_584,2023-03-26,Hyderabad,Instagram,Male,50
+585,Customer_585,2023-04-13,Hyderabad,Organic,Male,26
+586,Customer_586,2023-02-02,Delhi,Organic,Female,35
+587,Customer_587,2024-05-26,Ahmedabad,Organic,Male,49
+588,Customer_588,2024-03-14,Mumbai,Referral,Female,59
+589,Customer_589,2023-06-26,Hyderabad,Instagram,Female,33
+590,Customer_590,2023-07-26,Bengaluru,Google Ads,Male,34
+591,Customer_591,2023-11-16,Delhi,Organic,Female,19
+592,Customer_592,2023-02-02,Bengaluru,Referral,Male,29
+593,Customer_593,2024-10-03,Hyderabad,Instagram,Female,45
+594,Customer_594,2023-04-28,Mumbai,Referral,Female,39
+595,Customer_595,2024-08-01,Delhi,Facebook,Male,39
+596,Customer_596,2023-01-22,Ahmedabad,Instagram,Male,23
+597,Customer_597,2023-09-15,Kolkata,Google Ads,Female,22
+598,Customer_598,2023-05-12,Kolkata,Google Ads,Male,34
+599,Customer_599,2024-08-10,Bengaluru,Organic,Male,25
+600,Customer_600,2023-10-05,Kolkata,Instagram,Male,20
+601,Customer_601,2023-08-01,Mumbai,Facebook,Female,59
+602,Customer_602,2024-06-02,Delhi,Instagram,Female,24
+603,Customer_603,2024-01-20,Delhi,Organic,Male,52
+604,Customer_604,2023-12-03,Bengaluru,Organic,Male,28
+605,Customer_605,2024-08-05,Chennai,Facebook,Male,36
+606,Customer_606,2023-11-05,Mumbai,Influencer,Female,33
+607,Customer_607,2023-05-04,Delhi,Google Ads,Female,64
+608,Customer_608,2024-04-28,Mumbai,Organic,Male,63
+609,Customer_609,2023-12-07,Ahmedabad,Facebook,Female,25
+610,Customer_610,2024-09-18,Pune,Organic,Female,41
+611,Customer_611,2023-05-27,Bengaluru,Referral,Male,23
+612,Customer_612,2023-04-26,Kolkata,Google Ads,Male,53
+613,Customer_613,2024-10-10,Pune,Organic,Male,63
+614,Customer_614,2023-11-25,Kolkata,Google Ads,Male,45
+615,Customer_615,2023-04-24,Bengaluru,Referral,Male,64
+616,Customer_616,2023-04-29,Kolkata,Instagram,Female,40
+617,Customer_617,2023-12-23,Chennai,Instagram,Female,49
+618,Customer_618,2023-02-25,Delhi,Organic,Male,57
+619,Customer_619,2024-07-02,Delhi,Facebook,Female,32
+620,Customer_620,2024-10-15,Chennai,Referral,Male,58
+621,Customer_621,2023-04-15,Hyderabad,Google Ads,Male,34
+622,Customer_622,2024-05-05,Chennai,Instagram,Male,20
+623,Customer_623,2023-10-27,Hyderabad,Facebook,Female,64
+624,Customer_624,2024-08-27,Bengaluru,Influencer,Male,40
+625,Customer_625,2024-11-22,Delhi,Google Ads,Male,22
+626,Customer_626,2024-08-02,Bengaluru,Referral,Female,38
+627,Customer_627,2023-05-28,Hyderabad,Organic,Female,43
+628,Customer_628,2024-06-23,Chennai,Organic,Male,37
+629,Customer_629,2023-02-03,Ahmedabad,Google Ads,Male,41
+630,Customer_630,2023-05-10,Chennai,Instagram,Female,19
+631,Customer_631,2023-12-10,Delhi,Organic,Female,42
+632,Customer_632,2023-05-30,Hyderabad,Organic,Male,19
+633,Customer_633,2024-07-20,Ahmedabad,Google Ads,Male,20
+634,Customer_634,2024-05-25,Hyderabad,Facebook,Male,63
+635,Customer_635,2024-10-22,Bengaluru,Google Ads,Male,49
+636,Customer_636,2024-09-11,Bengaluru,Organic,Female,26
+637,Customer_637,2024-05-05,Bengaluru,Facebook,Male,26
+638,Customer_638,2023-11-06,Pune,Referral,Female,54
+639,Customer_639,2023-02-27,Chennai,Google Ads,Male,59
+640,Customer_640,2023-04-01,Delhi,Organic,Male,18
+641,Customer_641,2024-12-07,Mumbai,Google Ads,Female,20
+642,Customer_642,2024-10-08,Bengaluru,Google Ads,Female,58
+643,Customer_643,2023-07-31,Kolkata,Organic,Female,43
+644,Customer_644,2023-05-01,Delhi,Organic,Female,56
+645,Customer_645,2024-01-24,Pune,Referral,Female,60
+646,Customer_646,2024-11-19,Ahmedabad,Instagram,Female,58
+647,Customer_647,2023-04-12,Ahmedabad,Instagram,Female,36
+648,Customer_648,2023-09-07,Mumbai,Organic,Male,49
+649,Customer_649,2024-04-24,Mumbai,Facebook,Female,49
+650,Customer_650,2023-11-28,Pune,Influencer,Male,56
+651,Customer_651,2023-03-01,Hyderabad,Referral,Male,20
+652,Customer_652,2023-08-08,Chennai,Google Ads,Male,39
+653,Customer_653,2023-06-04,Ahmedabad,Influencer,Male,49
+654,Customer_654,2024-04-24,Ahmedabad,Organic,Female,35
+655,Customer_655,2023-01-18,Pune,Organic,Male,50
+656,Customer_656,2023-04-16,Pune,Instagram,Female,62
+657,Customer_657,2023-03-19,Hyderabad,Organic,Female,64
+658,Customer_658,2023-02-06,Ahmedabad,Google Ads,Male,27
+659,Customer_659,2024-07-21,Hyderabad,Google Ads,Female,45
+660,Customer_660,2024-10-05,Hyderabad,Organic,Female,33
+661,Customer_661,2023-10-22,Pune,Organic,Male,60
+662,Customer_662,2024-02-26,Pune,Facebook,Female,26
+663,Customer_663,2023-04-23,Delhi,Organic,Male,45
+664,Customer_664,2024-10-24,Bengaluru,Google Ads,Female,39
+665,Customer_665,2023-01-07,Pune,Facebook,Female,39
+666,Customer_666,2023-04-02,Ahmedabad,Organic,Male,59
+667,Customer_667,2024-10-10,Kolkata,Instagram,Female,40
+668,Customer_668,2023-07-18,Kolkata,Google Ads,Male,30
+669,Customer_669,2024-05-01,Kolkata,Google Ads,Male,36
+670,Customer_670,2023-05-17,Ahmedabad,Google Ads,Female,43
+671,Customer_671,2023-02-13,Delhi,Facebook,Female,55
+672,Customer_672,2024-03-01,Hyderabad,Referral,Male,31
+673,Customer_673,2024-05-18,Mumbai,Facebook,Female,61
+674,Customer_674,2023-03-19,Delhi,Organic,Female,58
+675,Customer_675,2024-05-12,Bengaluru,Referral,Female,28
+676,Customer_676,2023-09-21,Bengaluru,Google Ads,Female,49
+677,Customer_677,2024-06-25,Pune,Google Ads,Male,65
+678,Customer_678,2024-11-21,Mumbai,Facebook,Female,30
+679,Customer_679,2024-09-11,Pune,Instagram,Male,63
+680,Customer_680,2023-07-04,Mumbai,Referral,Male,24
+681,Customer_681,2023-02-23,Pune,Organic,Male,46
+682,Customer_682,2024-08-19,Hyderabad,Facebook,Female,49
+683,Customer_683,2023-12-24,Mumbai,Organic,Female,28
+684,Customer_684,2023-04-03,Chennai,Referral,Female,24
+685,Customer_685,2023-08-28,Chennai,Referral,Male,62
+686,Customer_686,2024-12-16,Pune,Facebook,Female,39
+687,Customer_687,2023-09-20,Kolkata,Organic,Male,41
+688,Customer_688,2023-11-29,Chennai,Instagram,Female,50
+689,Customer_689,2024-03-03,Chennai,Instagram,Male,32
+690,Customer_690,2024-10-11,Kolkata,Organic,Male,39
+691,Customer_691,2024-06-20,Kolkata,Facebook,Female,64
+692,Customer_692,2024-08-29,Pune,Facebook,Female,22
+693,Customer_693,2023-07-29,Pune,Organic,Female,54
+694,Customer_694,2023-09-12,Kolkata,Facebook,Female,32
+695,Customer_695,2024-02-15,Ahmedabad,Facebook,Male,21
+696,Customer_696,2024-03-10,Chennai,Organic,Male,59
+697,Customer_697,2023-12-27,Kolkata,Google Ads,Female,27
+698,Customer_698,2024-02-04,Bengaluru,Instagram,Male,26
+699,Customer_699,2023-02-01,Kolkata,Instagram,Male,57
+700,Customer_700,2024-05-04,Bengaluru,Facebook,Male,19
+701,Customer_701,2023-01-14,Pune,Instagram,Female,54
+702,Customer_702,2023-01-28,Hyderabad,Google Ads,Male,34
+703,Customer_703,2023-06-09,Delhi,Organic,Male,36
+704,Customer_704,2023-04-01,Hyderabad,Instagram,Female,21
+705,Customer_705,2023-11-29,Ahmedabad,Facebook,Female,36
+706,Customer_706,2024-11-15,Kolkata,Organic,Male,55
+707,Customer_707,2024-01-31,Chennai,Google Ads,Male,24
+708,Customer_708,2024-06-18,Chennai,Google Ads,Male,35
+709,Customer_709,2023-11-26,Delhi,Referral,Male,39
+710,Customer_710,2023-11-07,Chennai,Organic,Male,23
+711,Customer_711,2023-04-10,Ahmedabad,Instagram,Female,18
+712,Customer_712,2024-01-14,Pune,Organic,Male,18
+713,Customer_713,2023-10-16,Mumbai,Instagram,Female,44
+714,Customer_714,2024-06-30,Ahmedabad,Influencer,Male,22
+715,Customer_715,2023-05-05,Mumbai,Google Ads,Female,48
+716,Customer_716,2024-06-30,Ahmedabad,Instagram,Female,50
+717,Customer_717,2024-01-20,Chennai,Organic,Female,48
+718,Customer_718,2023-04-26,Kolkata,Influencer,Female,23
+719,Customer_719,2024-10-16,Kolkata,Referral,Female,56
+720,Customer_720,2024-03-15,Hyderabad,Organic,Female,35
+721,Customer_721,2024-06-10,Bengaluru,Instagram,Female,23
+722,Customer_722,2023-02-11,Hyderabad,Facebook,Female,44
+723,Customer_723,2023-11-30,Kolkata,Referral,Female,61
+724,Customer_724,2024-12-12,Kolkata,Organic,Female,49
+725,Customer_725,2023-07-23,Chennai,Google Ads,Male,27
+726,Customer_726,2024-04-17,Pune,Organic,Male,28
+727,Customer_727,2024-09-21,Kolkata,Referral,Female,47
+728,Customer_728,2024-02-20,Kolkata,Organic,Male,63
+729,Customer_729,2024-11-01,Bengaluru,Referral,Female,50
+730,Customer_730,2024-02-25,Bengaluru,Influencer,Male,35
+731,Customer_731,2023-03-07,Pune,Facebook,Female,35
+732,Customer_732,2023-09-07,Hyderabad,Organic,Female,21
+733,Customer_733,2024-02-24,Delhi,Organic,Male,57
+734,Customer_734,2023-02-06,Delhi,Facebook,Male,49
+735,Customer_735,2023-03-27,Mumbai,Google Ads,Female,32
+736,Customer_736,2024-11-06,Mumbai,Referral,Female,58
+737,Customer_737,2024-10-04,Kolkata,Google Ads,Male,59
+738,Customer_738,2024-02-01,Chennai,Organic,Female,20
+739,Customer_739,2024-01-11,Ahmedabad,Referral,Female,35
+740,Customer_740,2023-01-21,Bengaluru,Influencer,Female,18
+741,Customer_741,2024-05-22,Delhi,Instagram,Male,54
+742,Customer_742,2023-05-28,Delhi,Instagram,Male,31
+743,Customer_743,2023-03-14,Ahmedabad,Referral,Male,64
+744,Customer_744,2023-12-31,Ahmedabad,Referral,Female,59
+745,Customer_745,2024-05-11,Bengaluru,Instagram,Female,53
+746,Customer_746,2023-07-23,Bengaluru,Organic,Female,18
+747,Customer_747,2024-09-17,Delhi,Organic,Male,31
+748,Customer_748,2023-01-27,Chennai,Organic,Female,37
+749,Customer_749,2023-03-09,Ahmedabad,Instagram,Male,40
+750,Customer_750,2024-10-01,Mumbai,Google Ads,Female,44
+751,Customer_751,2023-08-03,Bengaluru,Organic,Male,46
+752,Customer_752,2024-11-19,Ahmedabad,Instagram,Female,29
+753,Customer_753,2024-05-09,Hyderabad,Organic,Female,48
+754,Customer_754,2024-12-12,Chennai,Organic,Female,24
+755,Customer_755,2023-06-23,Mumbai,Instagram,Female,64
+756,Customer_756,2024-05-16,Hyderabad,Google Ads,Female,32
+757,Customer_757,2024-02-01,Mumbai,Organic,Female,24
+758,Customer_758,2023-12-16,Pune,Organic,Female,19
+759,Customer_759,2024-07-02,Hyderabad,Instagram,Male,65
+760,Customer_760,2023-06-28,Mumbai,Organic,Female,38
+761,Customer_761,2024-03-06,Pune,Influencer,Female,34
+762,Customer_762,2023-08-14,Chennai,Google Ads,Female,33
+763,Customer_763,2023-04-07,Mumbai,Organic,Female,59
+764,Customer_764,2023-04-22,Mumbai,Instagram,Male,28
+765,Customer_765,2024-12-05,Bengaluru,Facebook,Female,38
+766,Customer_766,2024-02-10,Pune,Organic,Male,63
+767,Customer_767,2024-06-27,Mumbai,Organic,Male,50
+768,Customer_768,2023-08-13,Ahmedabad,Google Ads,Female,21
+769,Customer_769,2023-03-26,Mumbai,Organic,Male,26
+770,Customer_770,2023-06-21,Chennai,Instagram,Male,47
+771,Customer_771,2024-11-04,Delhi,Organic,Female,59
+772,Customer_772,2023-11-28,Mumbai,Organic,Male,30
+773,Customer_773,2023-12-17,Hyderabad,Facebook,Female,38
+774,Customer_774,2024-11-28,Chennai,Google Ads,Male,52
+775,Customer_775,2023-11-10,Pune,Organic,Male,52
+776,Customer_776,2024-10-02,Delhi,Instagram,Male,50
+777,Customer_777,2023-11-14,Bengaluru,Referral,Female,37
+778,Customer_778,2023-03-14,Delhi,Referral,Male,46
+779,Customer_779,2024-03-14,Pune,Instagram,Female,34
+780,Customer_780,2024-02-07,Hyderabad,Organic,Female,23
+781,Customer_781,2024-05-06,Chennai,Organic,Female,23
+782,Customer_782,2024-09-23,Chennai,Google Ads,Female,41
+783,Customer_783,2023-10-12,Mumbai,Google Ads,Male,63
+784,Customer_784,2024-05-22,Delhi,Google Ads,Male,42
+785,Customer_785,2023-04-08,Ahmedabad,Referral,Male,25
+786,Customer_786,2023-12-12,Hyderabad,Instagram,Female,19
+787,Customer_787,2023-06-22,Bengaluru,Referral,Male,24
+788,Customer_788,2023-03-07,Bengaluru,Influencer,Female,34
+789,Customer_789,2024-09-29,Chennai,Facebook,Female,24
+790,Customer_790,2024-07-05,Bengaluru,Google Ads,Female,31
+791,Customer_791,2023-08-15,Hyderabad,Referral,Female,57
+792,Customer_792,2023-09-17,Delhi,Organic,Female,34
+793,Customer_793,2023-09-17,Kolkata,Google Ads,Male,49
+794,Customer_794,2023-01-05,Pune,Organic,Female,27
+795,Customer_795,2023-01-01,Bengaluru,Organic,Male,37
+796,Customer_796,2023-04-14,Mumbai,Referral,Male,58
+797,Customer_797,2023-12-20,Hyderabad,Organic,Female,51
+798,Customer_798,2023-09-01,Mumbai,Referral,Female,59
+799,Customer_799,2023-09-13,Delhi,Influencer,Female,53
+800,Customer_800,2024-04-09,Kolkata,Facebook,Male,48
+801,Customer_801,2024-02-14,Bengaluru,Organic,Female,28
+802,Customer_802,2023-01-24,Ahmedabad,Referral,Female,25
+803,Customer_803,2024-11-12,Kolkata,Google Ads,Female,26
+804,Customer_804,2024-06-03,Pune,Influencer,Female,43
+805,Customer_805,2024-11-25,Kolkata,Instagram,Female,42
+806,Customer_806,2023-08-27,Chennai,Referral,Female,50
+807,Customer_807,2024-07-27,Bengaluru,Organic,Male,54
+808,Customer_808,2023-08-14,Pune,Facebook,Male,59
+809,Customer_809,2024-07-06,Kolkata,Organic,Female,37
+810,Customer_810,2023-10-19,Kolkata,Organic,Male,30
+811,Customer_811,2023-06-28,Chennai,Facebook,Male,33
+812,Customer_812,2023-02-22,Chennai,Instagram,Female,25
+813,Customer_813,2024-05-22,Delhi,Influencer,Female,49
+814,Customer_814,2024-10-26,Mumbai,Organic,Female,25
+815,Customer_815,2023-01-29,Bengaluru,Instagram,Male,42
+816,Customer_816,2023-06-24,Ahmedabad,Organic,Male,20
+817,Customer_817,2024-12-18,Chennai,Google Ads,Male,65
+818,Customer_818,2024-12-19,Kolkata,Google Ads,Female,23
+819,Customer_819,2023-11-17,Pune,Facebook,Male,65
+820,Customer_820,2024-10-21,Kolkata,Facebook,Male,39
+821,Customer_821,2023-11-13,Mumbai,Google Ads,Male,51
+822,Customer_822,2024-06-28,Kolkata,Organic,Male,60
+823,Customer_823,2023-11-18,Chennai,Google Ads,Female,64
+824,Customer_824,2023-04-11,Mumbai,Instagram,Female,43
+825,Customer_825,2023-06-05,Mumbai,Referral,Male,28
+826,Customer_826,2023-05-12,Pune,Influencer,Female,23
+827,Customer_827,2023-01-25,Mumbai,Google Ads,Male,38
+828,Customer_828,2024-08-08,Chennai,Referral,Male,61
+829,Customer_829,2023-11-18,Chennai,Instagram,Female,44
+830,Customer_830,2024-11-12,Pune,Organic,Male,29
+831,Customer_831,2023-09-15,Delhi,Referral,Male,22
+832,Customer_832,2024-07-23,Chennai,Facebook,Female,42
+833,Customer_833,2024-10-31,Chennai,Organic,Male,39
+834,Customer_834,2024-06-15,Bengaluru,Facebook,Male,57
+835,Customer_835,2023-01-06,Kolkata,Organic,Female,60
+836,Customer_836,2024-05-19,Bengaluru,Organic,Male,57
+837,Customer_837,2024-12-25,Chennai,Organic,Female,34
+838,Customer_838,2024-08-31,Delhi,Organic,Female,40
+839,Customer_839,2024-01-15,Kolkata,Organic,Female,31
+840,Customer_840,2023-07-20,Ahmedabad,Organic,Male,45
+841,Customer_841,2023-02-26,Mumbai,Instagram,Male,28
+842,Customer_842,2023-12-14,Delhi,Google Ads,Female,25
+843,Customer_843,2023-11-25,Delhi,Organic,Male,50
+844,Customer_844,2024-03-11,Chennai,Instagram,Female,28
+845,Customer_845,2024-07-19,Chennai,Organic,Female,32
+846,Customer_846,2023-09-11,Delhi,Google Ads,Male,59
+847,Customer_847,2023-01-13,Mumbai,Organic,Male,64
+848,Customer_848,2023-02-05,Hyderabad,Instagram,Female,53
+849,Customer_849,2023-03-24,Pune,Organic,Female,21
+850,Customer_850,2024-12-13,Chennai,Organic,Male,30
+851,Customer_851,2024-04-24,Ahmedabad,Google Ads,Female,33
+852,Customer_852,2024-08-27,Mumbai,Facebook,Female,22
+853,Customer_853,2023-01-25,Hyderabad,Instagram,Female,25
+854,Customer_854,2023-12-09,Chennai,Instagram,Female,51
+855,Customer_855,2024-12-31,Delhi,Referral,Male,37
+856,Customer_856,2023-01-13,Kolkata,Organic,Female,27
+857,Customer_857,2023-12-23,Mumbai,Organic,Female,63
+858,Customer_858,2024-07-06,Kolkata,Organic,Male,32
+859,Customer_859,2024-05-19,Chennai,Facebook,Female,39
+860,Customer_860,2023-08-08,Bengaluru,Organic,Male,30
+861,Customer_861,2023-10-21,Bengaluru,Google Ads,Male,22
+862,Customer_862,2023-08-11,Kolkata,Referral,Male,36
+863,Customer_863,2024-09-13,Delhi,Organic,Female,19
+864,Customer_864,2023-07-14,Hyderabad,Instagram,Female,46
+865,Customer_865,2024-02-07,Delhi,Organic,Female,41
+866,Customer_866,2024-01-04,Ahmedabad,Google Ads,Female,18
+867,Customer_867,2023-06-02,Pune,Instagram,Male,35
+868,Customer_868,2023-03-30,Delhi,Organic,Female,50
+869,Customer_869,2023-08-09,Chennai,Influencer,Female,51
+870,Customer_870,2023-07-12,Chennai,Referral,Male,37
+871,Customer_871,2023-04-08,Pune,Facebook,Female,50
+872,Customer_872,2023-07-08,Ahmedabad,Google Ads,Male,41
+873,Customer_873,2024-01-03,Chennai,Organic,Male,46
+874,Customer_874,2023-07-30,Ahmedabad,Referral,Female,19
+875,Customer_875,2024-11-18,Hyderabad,Organic,Male,56
+876,Customer_876,2023-10-27,Chennai,Referral,Female,35
+877,Customer_877,2023-04-10,Bengaluru,Organic,Female,36
+878,Customer_878,2023-03-13,Pune,Facebook,Female,18
+879,Customer_879,2023-05-05,Ahmedabad,Instagram,Female,24
+880,Customer_880,2024-04-10,Kolkata,Google Ads,Male,23
+881,Customer_881,2023-09-25,Chennai,Instagram,Male,39
+882,Customer_882,2024-01-01,Mumbai,Instagram,Female,57
+883,Customer_883,2023-09-23,Bengaluru,Google Ads,Male,65
+884,Customer_884,2024-04-18,Hyderabad,Facebook,Male,55
+885,Customer_885,2024-03-20,Chennai,Instagram,Male,52
+886,Customer_886,2023-11-26,Ahmedabad,Influencer,Female,51
+887,Customer_887,2023-10-29,Ahmedabad,Instagram,Male,45
+888,Customer_888,2023-12-07,Chennai,Organic,Male,34
+889,Customer_889,2023-12-07,Bengaluru,Google Ads,Female,42
+890,Customer_890,2023-03-03,Chennai,Referral,Female,34
+891,Customer_891,2023-07-02,Ahmedabad,Influencer,Female,25
+892,Customer_892,2023-12-25,Bengaluru,Instagram,Female,62
+893,Customer_893,2023-10-04,Ahmedabad,Influencer,Female,47
+894,Customer_894,2024-06-23,Pune,Instagram,Male,27
+895,Customer_895,2023-06-04,Kolkata,Instagram,Female,25
+896,Customer_896,2024-11-09,Delhi,Google Ads,Female,48
+897,Customer_897,2023-06-23,Delhi,Google Ads,Male,60
+898,Customer_898,2024-12-29,Delhi,Referral,Female,40
+899,Customer_899,2023-08-21,Chennai,Organic,Male,63
+900,Customer_900,2024-01-01,Pune,Instagram,Male,29
+901,Customer_901,2023-05-15,Mumbai,Instagram,Female,49
+902,Customer_902,2024-11-15,Ahmedabad,Instagram,Female,39
+903,Customer_903,2024-02-20,Pune,Facebook,Female,47
+904,Customer_904,2024-12-19,Mumbai,Organic,Female,45
+905,Customer_905,2024-04-16,Mumbai,Organic,Female,51
+906,Customer_906,2024-10-22,Ahmedabad,Referral,Male,26
+907,Customer_907,2024-01-16,Hyderabad,Referral,Male,65
+908,Customer_908,2023-07-23,Pune,Organic,Female,42
+909,Customer_909,2024-07-03,Ahmedabad,Organic,Female,39
+910,Customer_910,2024-10-12,Hyderabad,Organic,Female,30
+911,Customer_911,2024-08-17,Ahmedabad,Google Ads,Male,64
+912,Customer_912,2023-04-26,Bengaluru,Instagram,Male,62
+913,Customer_913,2023-07-03,Ahmedabad,Instagram,Male,23
+914,Customer_914,2024-10-05,Pune,Organic,Male,31
+915,Customer_915,2023-02-11,Pune,Referral,Male,48
+916,Customer_916,2024-06-30,Kolkata,Google Ads,Female,25
+917,Customer_917,2023-02-18,Hyderabad,Influencer,Female,29
+918,Customer_918,2023-07-23,Delhi,Referral,Female,39
+919,Customer_919,2023-03-22,Mumbai,Instagram,Male,20
+920,Customer_920,2023-07-16,Hyderabad,Referral,Male,26
+921,Customer_921,2023-12-06,Ahmedabad,Organic,Female,36
+922,Customer_922,2023-01-17,Ahmedabad,Organic,Female,53
+923,Customer_923,2024-12-30,Ahmedabad,Organic,Male,53
+924,Customer_924,2023-11-23,Ahmedabad,Organic,Female,31
+925,Customer_925,2023-08-30,Bengaluru,Organic,Female,19
+926,Customer_926,2023-03-20,Delhi,Organic,Female,40
+927,Customer_927,2024-05-16,Kolkata,Google Ads,Female,35
+928,Customer_928,2024-05-24,Hyderabad,Instagram,Female,46
+929,Customer_929,2024-06-10,Hyderabad,Google Ads,Female,64
+930,Customer_930,2023-09-15,Bengaluru,Google Ads,Male,30
+931,Customer_931,2023-11-14,Ahmedabad,Referral,Male,64
+932,Customer_932,2024-01-05,Kolkata,Instagram,Male,40
+933,Customer_933,2023-04-08,Ahmedabad,Referral,Male,63
+934,Customer_934,2024-04-24,Pune,Google Ads,Male,42
+935,Customer_935,2023-06-03,Chennai,Organic,Female,64
+936,Customer_936,2024-02-16,Ahmedabad,Organic,Male,48
+937,Customer_937,2023-02-03,Kolkata,Google Ads,Male,20
+938,Customer_938,2023-11-15,Ahmedabad,Organic,Male,46
+939,Customer_939,2024-05-22,Kolkata,Facebook,Male,54
+940,Customer_940,2024-09-06,Ahmedabad,Organic,Female,30
+941,Customer_941,2024-04-11,Kolkata,Influencer,Male,46
+942,Customer_942,2024-12-23,Pune,Organic,Female,28
+943,Customer_943,2024-05-03,Ahmedabad,Organic,Male,26
+944,Customer_944,2024-03-11,Chennai,Organic,Male,30
+945,Customer_945,2024-11-24,Pune,Organic,Male,37
+946,Customer_946,2023-07-26,Pune,Google Ads,Male,50
+947,Customer_947,2023-05-16,Hyderabad,Google Ads,Male,58
+948,Customer_948,2023-03-24,Mumbai,Google Ads,Male,18
+949,Customer_949,2024-03-22,Pune,Organic,Male,53
+950,Customer_950,2023-05-12,Hyderabad,Google Ads,Female,36
+951,Customer_951,2023-05-19,Bengaluru,Organic,Female,27
+952,Customer_952,2024-02-13,Delhi,Referral,Female,28
+953,Customer_953,2023-09-04,Bengaluru,Facebook,Male,43
+954,Customer_954,2024-08-22,Chennai,Referral,Female,32
+955,Customer_955,2024-05-24,Chennai,Organic,Female,24
+956,Customer_956,2024-03-24,Kolkata,Google Ads,Female,29
+957,Customer_957,2024-12-11,Pune,Instagram,Female,24
+958,Customer_958,2024-05-23,Kolkata,Organic,Male,23
+959,Customer_959,2023-12-01,Ahmedabad,Google Ads,Female,32
+960,Customer_960,2024-12-08,Bengaluru,Influencer,Female,40
+961,Customer_961,2024-11-11,Bengaluru,Organic,Female,27
+962,Customer_962,2024-09-14,Chennai,Google Ads,Male,32
+963,Customer_963,2024-07-08,Ahmedabad,Influencer,Female,26
+964,Customer_964,2023-05-09,Hyderabad,Referral,Female,46
+965,Customer_965,2024-05-10,Ahmedabad,Referral,Female,27
+966,Customer_966,2023-02-28,Kolkata,Organic,Female,33
+967,Customer_967,2023-09-15,Pune,Referral,Female,24
+968,Customer_968,2024-11-29,Bengaluru,Organic,Male,28
+969,Customer_969,2023-12-28,Ahmedabad,Organic,Female,18
+970,Customer_970,2024-03-31,Delhi,Referral,Female,37
+971,Customer_971,2023-07-11,Bengaluru,Organic,Male,63
+972,Customer_972,2024-07-18,Delhi,Organic,Male,26
+973,Customer_973,2023-08-27,Bengaluru,Instagram,Female,48
+974,Customer_974,2023-02-07,Ahmedabad,Instagram,Female,20
+975,Customer_975,2023-04-07,Ahmedabad,Google Ads,Female,55
+976,Customer_976,2024-05-22,Hyderabad,Referral,Female,21
+977,Customer_977,2023-01-23,Chennai,Referral,Male,62
+978,Customer_978,2023-08-21,Ahmedabad,Referral,Female,47
+979,Customer_979,2024-03-16,Delhi,Organic,Female,19
+980,Customer_980,2023-03-12,Kolkata,Organic,Female,60
+981,Customer_981,2024-12-12,Mumbai,Google Ads,Female,57
+982,Customer_982,2023-01-21,Hyderabad,Google Ads,Male,38
+983,Customer_983,2024-03-18,Pune,Google Ads,Female,27
+984,Customer_984,2024-08-26,Pune,Referral,Female,64
+985,Customer_985,2023-05-04,Pune,Organic,Female,34
+986,Customer_986,2023-03-10,Delhi,Google Ads,Male,29
+987,Customer_987,2023-09-07,Delhi,Organic,Female,25
+988,Customer_988,2023-04-16,Kolkata,Google Ads,Female,47
+989,Customer_989,2023-06-29,Kolkata,Google Ads,Male,56
+990,Customer_990,2023-10-19,Hyderabad,Google Ads,Male,34
+991,Customer_991,2024-10-17,Bengaluru,Referral,Male,26
+992,Customer_992,2023-11-21,Mumbai,Google Ads,Female,51
+993,Customer_993,2023-04-03,Chennai,Google Ads,Male,64
+994,Customer_994,2024-09-28,Chennai,Organic,Female,59
+995,Customer_995,2024-01-25,Ahmedabad,Referral,Female,54
+996,Customer_996,2024-01-15,Delhi,Facebook,Female,20
+997,Customer_997,2024-11-05,Delhi,Google Ads,Male,43
+998,Customer_998,2024-11-16,Bengaluru,Facebook,Female,61
+999,Customer_999,2024-06-02,Ahmedabad,Google Ads,Male,24
+1000,Customer_1000,2023-12-05,Pune,Facebook,Male,40
