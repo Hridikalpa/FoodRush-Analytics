@@ -1,0 +1,51 @@
+restaurant_id,restaurant_name,cuisine,city,rating
+1,Restaurant_1,South Indian,Pune,4.5
+2,Restaurant_2,Biryani,Bangalore,4.8
+3,Restaurant_3,Italian,Delhi,4.4
+4,Restaurant_4,Fast Food,Delhi,3.6
+5,Restaurant_5,Biryani,Chennai,3.9
+6,Restaurant_6,North Indian,Pune,4.7
+7,Restaurant_7,Chinese,Hyderabad,4.8
+8,Restaurant_8,South Indian,Delhi,3.7
+9,Restaurant_9,Italian,Delhi,3.8
+10,Restaurant_10,South Indian,Bangalore,5.0
+11,Restaurant_11,Fast Food,Chennai,5.0
+12,Restaurant_12,Italian,Pune,4.6
+13,Restaurant_13,North Indian,Pune,4.4
+14,Restaurant_14,Chinese,Pune,4.7
+15,Restaurant_15,Italian,Hyderabad,5.0
+16,Restaurant_16,Italian,Hyderabad,3.8
+17,Restaurant_17,Italian,Pune,4.5
+18,Restaurant_18,South Indian,Hyderabad,4.6
+19,Restaurant_19,Italian,Delhi,4.7
+20,Restaurant_20,South Indian,Chennai,3.9
+21,Restaurant_21,Chinese,Pune,3.9
+22,Restaurant_22,South Indian,Chennai,3.9
+23,Restaurant_23,North Indian,Pune,4.2
+24,Restaurant_24,Biryani,Bangalore,4.2
+25,Restaurant_25,North Indian,Hyderabad,4.9
+26,Restaurant_26,Chinese,Chennai,4.0
+27,Restaurant_27,South Indian,Bangalore,4.3
+28,Restaurant_28,Biryani,Bangalore,4.7
+29,Restaurant_29,Italian,Pune,4.7
+30,Restaurant_30,North Indian,Chennai,4.8
+31,Restaurant_31,Biryani,Bangalore,3.8
+32,Restaurant_32,South Indian,Chennai,4.0
+33,Restaurant_33,South Indian,Chennai,4.8
+34,Restaurant_34,North Indian,Pune,4.9
+35,Restaurant_35,Biryani,Delhi,3.6
+36,Restaurant_36,South Indian,Mumbai,4.5
+37,Restaurant_37,Biryani,Pune,3.7
+38,Restaurant_38,Chinese,Hyderabad,4.6
+39,Restaurant_39,Chinese,Bangalore,4.7
+40,Restaurant_40,Italian,Mumbai,4.2
+41,Restaurant_41,Fast Food,Pune,3.6
+42,Restaurant_42,Italian,Pune,4.1
+43,Restaurant_43,Fast Food,Mumbai,3.7
+44,Restaurant_44,North Indian,Delhi,4.7
+45,Restaurant_45,Fast Food,Chennai,4.6
+46,Restaurant_46,North Indian,Mumbai,4.6
+47,Restaurant_47,South Indian,Bangalore,4.4
+48,Restaurant_48,North Indian,Chennai,3.7
+49,Restaurant_49,Italian,Chennai,4.6
+50,Restaurant_50,Chinese,Hyderabad,3.7
