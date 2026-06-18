@@ -1,52 +1,10 @@
-# Ticket 1: Acquisition Channel Quality
+# FoodRush Business Questions
 
-## Business Question
-
+## Ticket 1
 Which acquisition channel brings the highest-value customers?
+Status: Completed
 
-## KPI
-
-Average Lifetime Spend per Customer
-
-### Formula
-
-Lifetime Spend = SUM(order_amount) for delivered orders
-
-Average Lifetime Spend =
-Total Lifetime Spend / Total Customers
-
-## Grain
-
-Intermediate:
-- One row = One Customer
-
-Final:
-- One row = One Acquisition Channel
-
-## SQL Approach
-
-1. Calculate lifetime spend for each customer.
-2. Aggregate customers by acquisition channel.
-3. Compute:
-   - Total Customers
-   - Total Lifetime Revenue
-   - Average Lifetime Spend
-
-## Power BI Visualization
-
-- Clustered Bar Chart:
-  - Axis: Acquisition Channel
-  - Value: Average Lifetime Spend
-
-- KPI Cards:
-  - Total Revenue
-  - Total Customers
-  - Average Lifetime Spend
-
-## ETL / Data Quality Considerations
-
-- Exclude cancelled orders.
-- Ensure customer IDs are unique.
-- Check for NULL acquisition channels.
-- Validate duplicate orders.
-
+## Ticket 2
+Which cities have the highest repeat customer rate?
+Status: Completed
+Note: Initial development dataset produced unrealistic 100% repeat rates. Dataset refined in Version 2 for production-quality analysis.
