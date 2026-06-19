@@ -19,21 +19,20 @@ Tables:
 orders
 */
 
-with monthly_revenue as 
-(select date_format(order_date, '%Y-%m') as yearmonth,
-sum(order_amount) as revenue
-from orders
-where order_status = 'Delivered'
-group by date_format(order_date, '%Y-%m')
-order by date_format(order_date, '%Y-%m'))
+WITH monthly_revenue AS (
+    SELECT
+        DATE_FORMAT(order_date, '%Y-%m') AS yearmonth,
+        SUM(order_amount) AS revenue
+    FROM orders
+    WHERE order_status = 'Delivered'
+    GROUP BY DATE_FORMAT(order_date, '%Y-%m')
+)
 
-select current_month,
-current_revenue,
-previous_revenue,
-((current_revenue-previous_revenue)/previous_revenue) * 100 as MoM_rev_pct
-from
-(select yearmonth as current_month,
-lag(yearmonth) over(order by yearmonth) as previous_month,
-revenue as current_revenue,
-lag(revenue) over(order by yearmonth) as previous_revenue
-from monthly_revenue)m
+SELECT
+    yearmonth AS current_month,
+    revenue AS current_revenue,
+    LAG(revenue) OVER (ORDER BY yearmonth) AS previous_revenue,
+    ROUND(
+        ((revenue - LAG(revenue) OVER (ORDER BY yearmonth))
+            / LAG(revenue) OVER (ORDER BY yearmonth)) * 100,2) AS mom_revenue_pct
+FROM monthly_revenue;
