@@ -40,7 +40,7 @@ FROM raw_orders;
 -- 2. Duplicate Rows
 -- ==========================================
 
-SELECT *,
+SELECT *, 
 COUNT(*) AS duplicate_count
 FROM raw_orders
 GROUP BY
