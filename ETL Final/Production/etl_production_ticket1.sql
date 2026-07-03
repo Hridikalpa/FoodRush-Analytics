@@ -41,7 +41,6 @@ select count(*) from raw_orders_Prod
 Both tables should have the same number of rows.
 
 ====================================================
-Interview Takeaway
 ====================================================
 
 Q. Why create raw_orders instead of using orders directly?
