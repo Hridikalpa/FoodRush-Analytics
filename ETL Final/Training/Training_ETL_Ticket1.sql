@@ -255,41 +255,163 @@ OR delivery_partner_id='0'
 OR delivery_partner_id LIKE '-%'
 OR delivery_partner_id NOT REGEXP '^[0-9]+$';
 
+/*=============================================================================
+Numeric Validation
+Checking whether numeric columns contain only valid numeric values.
+This check is performed before applying CAST().
+=============================================================================*/
+
+SELECT *
+
+FROM training_orders
+
+WHERE
+
+order_amount NOT REGEXP '^[0-9]+(\\.[0-9]{1,2})?$'
+
+OR discount_amount NOT REGEXP '^[0-9]+(\\.[0-9]{1,2})?$'
+
+OR delivery_fee NOT REGEXP '^[0-9]+(\\.[0-9]{1,2})?$'
+
+OR food_cost NOT REGEXP '^[0-9]+(\\.[0-9]{1,2})?$'
+
+OR delivery_cost NOT REGEXP '^[0-9]+(\\.[0-9]{1,2})?$'
+
+OR tip_amount NOT REGEXP '^[0-9]+(\\.[0-9]{1,2})?$';
+/*=============================================================================
+Date Format Validation
+Checks whether dates follow YYYY-MM-DD format.
+=============================================================================*/
+
+SELECT *
+
+FROM training_orders
+
+WHERE
+
+order_date NOT REGEXP '^[0-9]{4}-[0-9]{2}-[0-9]{2}$'
+
+OR
+
+delivery_date NOT REGEXP '^[0-9]{4}-[0-9]{2}-[0-9]{2}$';
+
+/*=============================================================================
+Calendar Validation
+Checks whether the dates are valid calendar dates.
+=============================================================================*/
+
+SELECT *
+
+FROM training_orders
+
+WHERE
+
+STR_TO_DATE(order_date,'%Y-%m-%d') IS NULL
+
+OR
+
+STR_TO_DATE(delivery_date,'%Y-%m-%d') IS NULL;
+
 
 
 /*=============================================================================
 5. Category Profiling
 =============================================================================*/
 
-SELECT 'City' AS column_name, city AS category, COUNT(*) AS total
+SELECT
+
+'City' AS Column_Name,
+
+city AS Category,
+
+COUNT(*) AS Total,
+
+ROUND(
+COUNT(*)*100.0/
+(SELECT COUNT(*) FROM training_orders),2
+) AS Percentage
+
 FROM training_orders
+
 GROUP BY city
 
 UNION ALL
 
-SELECT 'Cuisine', cuisine, COUNT(*)
+SELECT
+
+'Cuisine',
+
+cuisine,
+
+COUNT(*),
+
+ROUND(
+COUNT(*)*100.0/
+(SELECT COUNT(*) FROM training_orders),2
+)
+
 FROM training_orders
+
 GROUP BY cuisine
 
 UNION ALL
 
-SELECT 'Acquisition Channel', acquisition_channel, COUNT(*)
+SELECT
+
+'Acquisition Channel',
+
+acquisition_channel,
+
+COUNT(*),
+
+ROUND(
+COUNT(*)*100.0/
+(SELECT COUNT(*) FROM training_orders),2
+)
+
 FROM training_orders
+
 GROUP BY acquisition_channel
 
 UNION ALL
 
-SELECT 'Payment Mode', payment_mode, COUNT(*)
+SELECT
+
+'Payment Mode',
+
+payment_mode,
+
+COUNT(*),
+
+ROUND(
+COUNT(*)*100.0/
+(SELECT COUNT(*) FROM training_orders),2
+)
+
 FROM training_orders
+
 GROUP BY payment_mode
 
 UNION ALL
 
-SELECT 'Order Status', order_status, COUNT(*)
+SELECT
+
+'Order Status',
+
+order_status,
+
+COUNT(*),
+
+ROUND(
+COUNT(*)*100.0/
+(SELECT COUNT(*) FROM training_orders),2
+)
+
 FROM training_orders
+
 GROUP BY order_status
 
-ORDER BY column_name;
+ORDER BY Column_Name;
 
 
 
@@ -315,14 +437,9 @@ OR restaurant_name <> TRIM(restaurant_name)
 
 OR customer_name <> TRIM(customer_name);
 
-
-
-
 /*=============================================================================
-7. Date Validation
+Multiple Consecutive Spaces
 =============================================================================*/
-
--- Invalid Date Format
 
 SELECT *
 
@@ -330,14 +447,46 @@ FROM training_orders
 
 WHERE
 
-order_date NOT REGEXP '^[0-9]{4}-[0-9]{2}-[0-9]{2}'
+city REGEXP '[[:space:]]{2,}'
 
-OR delivery_date NOT REGEXP '^[0-9]{4}-[0-9]{2}-[0-9]{2}';
+OR cuisine REGEXP '[[:space:]]{2,}'
+
+OR customer_name REGEXP '[[:space:]]{2,}'
+
+OR restaurant_name REGEXP '[[:space:]]{2,}';
+
+/*=============================================================================
+Tab Characters
+=============================================================================*/
+
+SELECT *
+
+FROM training_orders
+
+WHERE
+
+city REGEXP '\t'
+
+OR customer_name REGEXP '\t'
+
+OR restaurant_name REGEXP '\t';
+
+/*=============================================================================
+Unexpected Special Characters
+=============================================================================*/
+
+SELECT *
+
+FROM training_orders
+
+WHERE
+
+restaurant_name REGEXP '[^A-Za-z0-9 &.-]';
 
 
 
 /*=============================================================================
-8. Numeric Profiling
+7. Numeric Profiling
 =============================================================================*/
 
 SELECT
@@ -367,7 +516,7 @@ FROM training_orders;
 
 
 /*=============================================================================
-9. Business Rule Validation
+8. Business Rule Validation
 =============================================================================*/
 
 -- Discount should never exceed Order Amount
@@ -382,7 +531,19 @@ CAST(discount_amount AS DECIMAL(10,2))
 >
 CAST(order_amount AS DECIMAL(10,2));
 
+-- Delivery date should not be before Order Date 
 
+SELECT *
+
+FROM training_orders
+
+WHERE
+
+STR_TO_DATE(delivery_date,'%Y-%m-%d')
+
+<
+
+STR_TO_DATE(order_date,'%Y-%m-%d');
 
 -- Rating should be between 1 and 5
 
@@ -394,7 +555,23 @@ WHERE
 
 customer_rating NOT BETWEEN 1 AND 5;
 
+/*=============================================================================
+10. Data Quality Summary
+=============================================================================*/
 
+SELECT
+
+COUNT(*) AS Total_Rows,
+
+SUM(order_id IS NULL OR order_id='') AS Missing_Order_ID,
+
+SUM(customer_id IS NULL OR customer_id='') AS Missing_Customer_ID,
+
+SUM(payment_mode IS NULL OR payment_mode='') AS Missing_Payment_Mode,
+
+SUM(order_status IS NULL OR order_status='') AS Missing_Order_Status
+
+FROM training_orders;
 
 /*=============================================================================
 End of Ticket 1
