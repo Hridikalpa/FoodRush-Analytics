@@ -12,15 +12,6 @@ Objective:
 Create a validated_orders table by retaining only records that satisfy
 the business validation rules while preserving the original raw data.
 
-====================================================
-Business Rules
-====================================================
-
-1. customer_id must not be NULL.
-2. restaurant_id must not be NULL.
-3. order_date must not be NULL.
-4. order_amount must be greater than 0.
-5. Only Delivered orders should be retained.
 
 ====================================================
 ETL Process
