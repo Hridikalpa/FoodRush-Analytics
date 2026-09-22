@@ -138,7 +138,7 @@ Answers: **Where are operational issues concentrated?**
 
 Key views include cancellation rate by order city, average delivery time by order city, delivery time vs cancellation rate, and restaurant-level operational metrics.
 
-The editable report is included at [`powerbi/FoodRush.pbix`](powerbi/FoodRush.pbix).
+The editable report is included at [`PowerBI/FoodRush.pbix`](PowerBI/FoodRush.pbix).
 
 ---
 
